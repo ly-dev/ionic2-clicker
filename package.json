@@ -1,0 +1,73 @@
+{
+  "name": "Clicker",
+  "author": "Stephen Hazleton",
+  "homepage": "https://github.com/lathonez/clicker",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve",
+    "e2e": "ionic-app-scripts build && protractor",
+    "postinstall": "ionic state restore && webdriver-manager update",
+    "start": "ionic serve",
+    "test": "ng test",
+    "test-coverage": "ng test --code-coverage",
+    "test-ci": "ng test --watch=false --code-coverage"
+  },
+  "version": "2.9.0",
+  "dependencies": {
+    "@angular/common": "2.4.8",
+    "@angular/compiler": "2.4.8",
+    "@angular/compiler-cli": "2.4.8",
+    "@angular/core": "2.4.8",
+    "@angular/forms": "2.4.8",
+    "@angular/http": "2.4.8",
+    "@angular/platform-browser": "2.4.8",
+    "@angular/platform-browser-dynamic": "2.4.8",
+    "@angular/platform-server": "2.4.8",
+    "@angular/router": "3.4.8",
+    "@ionic/storage": "2.0.0",
+    "ionic-angular": "2.2.0",
+    "ionic-native": "2.4.1",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "0.7.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.0-rc.2",
+    "@ionic/app-scripts": "1.1.4",
+    "@types/jasmine": "2.5.45",
+    "@types/node": "7.0.8",
+    "codecov": "2.0.1",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "3.2.0",
+    "karma": "1.5.0",
+    "karma-chrome-launcher": "2.0.0",
+    "karma-cli": "1.0.1",
+    "karma-coverage-istanbul-reporter": "0.3.0",
+    "karma-jasmine": "1.1.0",
+    "karma-jasmine-html-reporter": "0.2.2",
+    "protractor": "5.1.1",
+    "ts-node": "2.1.0",
+    "tslint": "4.5.1",
+    "tslint-eslint-rules": "3.4.0",
+    "typescript": "2.2.1"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lathonez/clicker.git"
+  },
+  "license": "MIT",
+  "description": "Clicker: An Ionic project"
+}
